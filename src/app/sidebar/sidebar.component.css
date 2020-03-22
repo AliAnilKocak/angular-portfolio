@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-name {
+  font-size: 24px;
+}
+
+ul {
+  list-style: none
+}
+
+.name-link {
+  text-decoration: none;
+  color: white;
+}
+
+.rounded-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.biography {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+.social-link {
+  margin-right: 8px;
+  padding: 8px;
+  font-size: 16px;
+  width: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 220ms;
+  background: white;
+  color: #54B689;
+}
+
+.social-link:hover {
+  opacity: 0.8;
+}
+
+.social-links {
+  margin-top: 36px;
+}
+
+
+.sidebar-link {
+  margin-top: 8px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 220ms;
+
+}
+
+.sidebar-link:hover {
+  color: black;
+  opacity: 0.5;
+}
+
+.sidebar-links {
+  margin-top: 36px;
+}
+
+
+ul li .sidebar-link a {
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+
+ul li .sidebar-link .fa {
+  color: whitesmoke;
+  margin-right: 8px;
+}
+
+
+.hire {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 36px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: opacity 220ms;
+
+}
+
+
+.hire:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.hire a {
+  color: white;
+  margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

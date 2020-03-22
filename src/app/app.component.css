@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+
+  background-color: #54B689;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 280px;
+  background-color: #54B689;
+  padding: 16px;
+  color: whitesmoke;
+  overflow-y: auto;
+  height: 100vh;
+
+}
+
+.content{
+  flex: 10;
+  background-color: whitesmoke;
+  padding: 16px;
+  color: black;
+}
