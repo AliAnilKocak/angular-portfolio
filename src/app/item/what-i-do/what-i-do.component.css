@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.icon-list-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 8px;
+
+}
+
+.desciption{
+  font-weight: lighter;
+  font-size: 16px;
+  margin-top: 8px;
+  letter-spacing: 0.5px;
+}
+
+
+.fa{
+  color: #54B689;
+  font-size: 22px;
+}

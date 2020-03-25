@@ -1,37 +1,98 @@
+<div class="wrap">
+  <div class="section">
+    <div class="container">
+      <div class="about-me">
+        <div class="about-me-user-info">
+          <h1>Ali Anıl Koçak</h1>
+          <div class="about-me-user-title">
+            Junior Developer
+          </div>
+          <p>
+            I'm a software engineer specialised in frontend and backend development
+            for complex scalable web apps. I write about software development on my <a routerLink="/blog">blog</a>.
+            Want to know how I may help your project? Check out my project <a routerLink="/portfolio">portfolio</a> and
+            <a routerLink="/resume">online resume</a>.
+          </p>
 
-<div class="section">
-  <div class="container">
-    <div class="about-me">
-      <div class="about-me-user-info">
-        <h1>Ali Anıl Koçak</h1>
-        <div class="about-me-user-title">
-          Junior Developer
+          <div class="about-me-button-group">
+            <div class="colored-button">
+              <i class="fa fa-arrow-circle-right"></i>
+              View Portfolio
+            </div>
+            <div class="grey-button">
+              <i class="fa fa-file-text"></i>
+              View Resume
+            </div>
+          </div>
         </div>
-        <p>
-          I'm a software engineer specialised in frontend and backend development
-          for complex scalable web apps. I write about software development on my <a routerLink="/blog">blog</a>.
-          Want to know how I may help your project? Check out my project <a routerLink="/portfolio">portfolio</a> and
-          <a routerLink="/resume">online resume</a>.
-        </p>
+        <div class="sized-box">
 
-        <div class="about-me-button-group">
-          <div class="colored-button" >
-            <i class="fa fa-arrow-circle-right"></i>
-            View Portfolio
-          </div>
-          <div class="grey-button" >
-            <i class="fa fa-file-text"></i>
-            View Resume
-          </div>
+        </div>
+        <div class="about-me-picture">
+          <img
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--lWizzZbd--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/85796/95fb3d40-47be-47b3-a797-4bd016e7f996.jpg"
+            alt="">
         </div>
       </div>
-      <div class="sized-box">
+      <div class="what-i-do"></div>
+    </div>
+  </div>
+  <div class="what-i-do">
+    <div class="what-i-do-title">
+      <h3>What I do</h3>
+    </div>
+    <p>
+      I have more than 10 years' experience building software for clients all over the world. Below is a quick overview
+      of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my
+      <a routerLink="/resume">online resume</a> and project <a routerLink="/portfolio">portfolio</a>.
+    </p>
+    <div class="what-i-do-list">
+      <div class="what-i-do-list-row">
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[0]" >
 
+          </app-what-i-do>
+        </div>
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[1]" >
+
+          </app-what-i-do>
+        </div>
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[2]" >
+
+          </app-what-i-do>
+        </div>
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[3]" >
+
+          </app-what-i-do>
+        </div>
       </div>
-      <div class="about-me-picture">
-        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lWizzZbd--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/85796/95fb3d40-47be-47b3-a797-4bd016e7f996.jpg" alt="">
+      <div class="what-i-do-list-row">
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[4]" >
+
+          </app-what-i-do>
+        </div>
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[5]" >
+
+          </app-what-i-do>
+        </div>
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[6]" >
+
+          </app-what-i-do>
+        </div>
+        <div class="what-i-do-item">
+          <app-what-i-do [data]="listData[7]" >
+
+          </app-what-i-do>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 
